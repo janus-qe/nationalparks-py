@@ -6,6 +6,7 @@ metadata:
     component: backstage-hello-world
   annotations:
     backstage.io/kubernetes-id: backstage
+    backstage.io/kubernetes-namespace: jai-test
 spec:
   type: service
   lifecycle: unknown
