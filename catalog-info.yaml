@@ -5,6 +5,7 @@ metadata:
   labels: 
     component: backstage-hello-world
   annotations:
+    github.com/project-slug: invinciblejai/nationalparks-py
     backstage.io/kubernetes-id: backstage
     backstage.io/kubernetes-namespace: jai-test
 spec:
