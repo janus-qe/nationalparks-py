@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  namespace: default
+  annotations:
+    tektonci/build-namespace: microservice-build
+    tektonci/pipeline-label-selector: 'pipeline.jquad.rocks/git.repository.branch.name=main'
+  name: jquad-microservice
+  description: JQuad Microservice
+spec:
+  type: service
+  lifecycle: production
+  owner: user:guest
