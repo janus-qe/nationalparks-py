@@ -3,7 +3,7 @@ kind: Component
 metadata:
   namespace: default
   annotations:
-    tektonci/build-namespace: jai-test
+    tektonci/build-namespace: jakumar-dev
   name: jquad-microservice
   description: JQuad Microservice
 spec:
