@@ -3,8 +3,7 @@ kind: Component
 metadata:
   namespace: default
   annotations:
-    tektonci/build-namespace: microservice-build
-    tektonci/pipeline-label-selector: 'pipeline.jquad.rocks/git.repository.branch.name=main'
+    tektonci/build-namespace: jai-test
   name: jquad-microservice
   description: JQuad Microservice
 spec:
