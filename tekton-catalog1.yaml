@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage
+  labels: 
+    component: backstage-hello-world
+  annotations:
+    github.com/project-slug: invinciblejai/nationalparks-py
+    backstage.io/kubernetes-id: backstage
+    backstage.io/kubernetes-namespace: jai-test-1
+spec:
+  type: service
+  lifecycle: unknown
+  owner: temp-team-b
