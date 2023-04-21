@@ -5,7 +5,8 @@ metadata:
   labels: 
     component: backstage-hello-world
   annotations:
-    github.com/project-slug: invinciblejai/nationalparks-py
+#   github.com/project-slug: invinciblejai/nationalparks-py
+#   backstage.io/kubernetes-namespace: jai-test
     backstage.io/kubernetes-id: backstage
     tekton.dev/build-namespace: deb-test
 spec:
