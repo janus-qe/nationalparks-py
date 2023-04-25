@@ -9,6 +9,7 @@ metadata:
 #   backstage.io/kubernetes-namespace: jai-test
     backstage.io/kubernetes-id: backstage
     tekton.dev/build-namespace: deb-test
+    janus.idp/tekton-enabled : 'true'
 spec:
   type: service
   lifecycle: unknown
