@@ -8,7 +8,7 @@ metadata:
 #   github.com/project-slug: invinciblejai/nationalparks-py
 #   backstage.io/kubernetes-namespace: jai-test
     backstage.io/kubernetes-id: backstage
-    backstage.io/kubernetes-label-selector: 'app-bs=my-app'
+#   backstage.io/kubernetes-label-selector: 'app-bs=my-app'
     janus-idp.io/tekton-enabled : 'true'
 spec:
   type: service
