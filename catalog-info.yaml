@@ -10,6 +10,7 @@ metadata:
     backstage.io/kubernetes-id: backstage
 #   backstage.io/kubernetes-label-selector: 'app-bs=my-app'
     janus-idp.io/tekton-enabled : 'true'
+    azure-container-registry/repository-name: 'samples/nodetest1'
 spec:
   type: service
   lifecycle: unknown
