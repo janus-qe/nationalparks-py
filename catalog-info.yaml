@@ -11,7 +11,7 @@ metadata:
 #   backstage.io/kubernetes-label-selector: 'app-bs=my-app'
     janus-idp.io/tekton-enabled : 'true'
     azure-container-registry/repository-name: 'samples/nodetest1'
-    nexus-repository-manager/docker.image-name: 'test-nexus'
+    nexus-repository-manager/docker.image-name: 'test-nexus/nodetest1'
 spec:
   type: service
   lifecycle: unknown
