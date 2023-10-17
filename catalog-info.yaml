@@ -10,7 +10,7 @@ metadata:
     backstage.io/kubernetes-id: backstage
 #   backstage.io/kubernetes-label-selector: 'app-bs=my-app'
     janus-idp.io/tekton-enabled : 'true'
-    azure-container-registry/repository-name: 'samples/nodetest1'
+#    azure-container-registry/repository-name: 'samples/nodetest1'
     nexus-repository-manager/docker.image-name: 'test-nexus/nodetest1'
     jfrog-artifactory/image-name: 'test-nexus/nodetest1'
 spec:
