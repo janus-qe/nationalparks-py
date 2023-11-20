@@ -14,6 +14,7 @@ metadata:
     azure-container-registry/repository-name: 'samples/nodetest1'
     nexus-repository-manager/docker.image-name: 'test-nexus/nodetest1'
     jfrog-artifactory/image-name: 'test-nexus/nodetest1'
+    lighthouse.com/website-url: https://backstage.io/
 spec:
   type: service
   lifecycle: unknown
